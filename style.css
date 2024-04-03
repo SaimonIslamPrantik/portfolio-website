@@ -1,0 +1,109 @@
+a, p, span, h1 {
+    font-family: Montserrat;
+}
+
+.body {
+    background-image: url(bg.png);
+}
+
+.logo {
+    display: inline-block;
+    width: 7%;
+    margin-left: 70px;
+    margin-top: 27px;
+    display: flexbox;
+    float: left;
+    vertical-align: middle;
+    
+}
+.nav {
+    float: right;
+    list-style: none;
+    overflow: hidden;
+    vertical-align: middle;
+    margin-top: 35px;
+}
+.nav button {
+    float: right;
+    margin-left: 50px;
+    border: none;
+    background: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    transition: ease-in .15s;
+}
+
+.nav button:hover {
+    background-color: rgb(110, 155, 221) ;
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 150%;
+}
+.nav a:hover {
+    color: rgb(0, 0, 0);
+}
+.face {
+    float: left;
+    border-radius: 100%;
+    width: 600px;
+    align-items: center;
+    padding: 250px;
+    margin-left: -100px;
+    display: inline;
+    padding: 0;
+    margin-top: 250px ;
+    animation: face;
+    animation-duration: 2s ;
+    animation-timing-function: ease;
+}
+
+
+.paragraph {
+    float: right;
+    min-width: 500px;
+    max-width: 700px;
+    align-items: center;
+    padding-right: 200px ;
+    padding-left: 50px;
+    color: white;
+    animation: text;
+    animation-duration: 3s ;
+    animation-timing-function: ease;
+}
+.h1 {
+    float: right;
+    min-width: 500px;
+    max-width: 700px;
+    align-items: center;
+    padding-right: 400px;
+    padding-left: 50px;
+    padding-top: 350px;
+    color: white;
+    animation: text;
+    animation-duration: 2s ;
+    animation-timing-function: ease;
+}
+.rightbt {
+    margin-right: 35px;
+}
+
+@keyframes face {
+    from{margin-left: -400px;}
+    to{margin-left: -100px}
+}
+@keyframes text {
+    from{opacity: 0%;}
+    to{opacity: 100%;}
+}
