@@ -67,6 +67,14 @@ a, p, span, h1 {
     animation: face;
     animation-duration: 2s ;
     animation-timing-function: ease;
+    transition: 1s;
+}
+
+.face:hover {
+    transform: rotate(180deg);
+}
+.face:active {
+    transform: rotate(360deg);
 }
 
 
