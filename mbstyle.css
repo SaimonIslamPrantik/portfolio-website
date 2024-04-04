@@ -1,0 +1,47 @@
+.body {
+    background-color: rgb(39, 41, 50);
+}
+
+
+.logo {
+width: 100px;
+float: top;
+/* display: inline-block; */
+}
+
+.face {
+        width: 150px;
+        margin-top: 50px; /* Adjust this value as needed to center vertically */
+        margin-left: auto;
+        margin-right: auto;
+        display: block; /* Ensures the margin auto is effective */
+        border-radius: 100%;
+    }
+#hamburger {
+    float: right;
+    width: 25px;
+    margin-top: 12px;
+    margin-right: 20px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    text-decoration: none;
+}
+#hamburger:active {
+    color: blue;
+}
+.h1 {
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 23px;
+    color: white;
+}
+.paragraph {
+    text-align: center;
+    margin-top: 50px;
+    font-family: Montserrat;
+    color: white;
+}
+
+ 
+    
