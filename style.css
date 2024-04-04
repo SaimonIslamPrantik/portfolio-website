@@ -10,7 +10,7 @@ h1 {
 }
 
 .logo {
-  display: inline-block;
+  /* display: inline-block; */
   width: 7%;
   margin-left: 70px;
   margin-top: 27px;
