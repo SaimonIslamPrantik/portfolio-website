@@ -1,47 +1,104 @@
 .body {
-    background-color: rgb(39, 41, 50);
+  background-color: rgb(39, 41, 50);
 }
 
-
 .logo {
-width: 100px;
-float: top;
-/* display: inline-block; */
+  width: 100px;
+  float: top;
+  /* display: inline-block; */
 }
 
 .face {
-        width: 150px;
-        margin-top: 50px; /* Adjust this value as needed to center vertically */
-        margin-left: auto;
-        margin-right: auto;
-        display: block; /* Ensures the margin auto is effective */
-        border-radius: 100%;
-    }
+  width: 150px;
+  margin-top: 50px; /* Adjust this value as needed to center vertically */
+  margin-left: auto;
+  margin-right: auto;
+  display: block; /* Ensures the margin auto is effective */
+  border-radius: 100%;
+}
 #hamburger {
-    float: right;
-    width: 25px;
-    margin-top: 12px;
-    margin-right: 20px;
-    font-size: 30px;
-    color: rgb(255, 255, 255);
-    cursor: pointer;
-    text-decoration: none;
+  float: right;
+  width: 25px;
+  margin-top: 12px;
+  margin-right: 20px;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  text-decoration: none;
 }
 #hamburger:active {
-    color: blue;
+  color: blue;
 }
 .h1 {
-    text-align: center;
-    font-family: Montserrat;
-    font-size: 23px;
-    color: white;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 23px;
+  color: white;
 }
 .paragraph {
-    text-align: center;
-    margin-top: 50px;
-    font-family: Montserrat;
-    color: white;
+  text-align: center;
+  margin-top: 50px;
+  font-family: Montserrat;
+  color: white;
 }
 
- 
-    
+.listmenu a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(184, 120, 255);
+    border-width: 900px;
+    border-color: black;
+    text-align: center;
+    display: block;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.listmenu1 a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(184, 120, 255);
+    border-width: 900px;
+    border-color: black;
+    text-align: center;
+    display: block;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    /* border-radius: 45px 45px 0px 0px; */
+    /* margin-top: 150px; */
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.listmenu2 a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: #b878ff;
+    border-width: 900px;
+    border-color: black;
+    text-align: center;
+    display: block;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    border-radius: 0px 0px 20px 20px;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-weight: 900;
+    cursor: pointer;
+}
+#cross {
+    color: white;
+    font-weight: 900;
+    font-size: 50px;
+    margin-top: 90px;
+    display: inline-block;
+    text-align: center;
+    background-color: #b878ff;
+    border-radius: 10px;
+}
