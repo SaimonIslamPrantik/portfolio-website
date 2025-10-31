@@ -40,14 +40,29 @@
     <img class="face" src="face.png" />
 
     <h1 class="h1">SAIMON ISLAM PRANTIK</h1>
-    <p class="paragraph">
-      “Hey It's Prantik, an 18-year-old living in Dhaka, Bangladesh. I’m
-      a 11th Grader at APBn College. I have a strong interest in
-      programming, with skills in HTML, CSS, and Bash scripting. I also run a
-      YouTube channel where I do livestreams and chess. Balancing my academic
-      life with my passion for programming is a part of my daily routine."
-    </p>
+
+#bio_script
+    
+    <p class="paragraph" id="bioText">Loading bio...</p>
+
+<script>
+  fetch("bio.txt")
+    .then(response => {
+      if (!response.ok) throw new Error("Failed to load bio.txt");
+      return response.text();
+    })
+    .then(data => {
+      document.getElementById("bioText").textContent = data;
+    })
+    .catch(error => {
+      console.error(error);
+      document.getElementById("bioText").textContent =
+        "Error loading bio information.";
+    });
+</script>
+
   </body>
   <a rel="me" href="https://mstdn.social/@prantik"></a>
 </html>
+
 
